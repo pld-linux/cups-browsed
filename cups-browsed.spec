@@ -11,13 +11,14 @@ Group:		Applications/Printing
 Source0:	https://github.com/OpenPrinting/cups-browsed/releases/download/%{version}/%{name}-%{version}.tar.xz
 # Source0-md5:	3732ad9cfded4c40be7ab764eb2d1871
 URL:		http://www.linuxfoundation.org/collaborate/workgroups/openprinting/cups-browsed
-BuildRequires:	autoconf >= 2.65
-BuildRequires:	automake >= 1:1.11
 BuildRequires:	avahi-devel
 BuildRequires:	avahi-glib-devel
 BuildRequires:	cups-devel >= 1:1.6.0
 BuildRequires:	dbus-devel
+BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.30.2
+BuildRequires:	libcupsfilters-devel
+BuildRequires:	libppd-devel
 BuildRequires:	pkgconfig >= 1:0.20
 BuildRequires:	rpmbuild(macros) >= 1.671
 BuildRequires:	tar >= 1:1.22
