@@ -1,7 +1,7 @@
 Summary:	A daemon for browsing the Bonjour broadcasts of shared, remote CUPS printers
 Summary(pl.UTF-8):	Demon do przeglądania broadcastów Bonjour współdzielonych, zdalnych drukarek CUPS
 Name:		cups-browsed
-Version:	2.1.0
+Version:	2.1.1
 Release:	1
 # For a breakdown of the licensing, see COPYING file
 # LGPLv2+:   utils: cups-browsed
@@ -9,7 +9,7 @@ License:	GPL v2, GPL v2+, GPL v3, GPL v3+, LGPL v2+, MIT
 Group:		Applications/Printing
 #Source0:	https://www.openprinting.org/download/cups-filters/%{name}-%{version}.tar.xz
 Source0:	https://github.com/OpenPrinting/cups-browsed/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	3732ad9cfded4c40be7ab764eb2d1871
+# Source0-md5:	293948973ebfc7ef4d5d8242d5733181
 URL:		http://www.linuxfoundation.org/collaborate/workgroups/openprinting/cups-browsed
 BuildRequires:	avahi-devel
 BuildRequires:	avahi-glib-devel
